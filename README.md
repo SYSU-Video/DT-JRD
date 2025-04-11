@@ -57,12 +57,12 @@ DT-JRD
 └── utils.py
 ```
 
-📥 The pretrained ViT weights used for training DT-JRD can be downloaded from:  
+📥 The pretrained ViT weights can be downloaded from:  
 - [ViT-L/32](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_large_patch32_224_in21k-9046d2e7.pth)  
 - [ViT-B/32](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_patch32_224_in21k-8db57226.pth)
 
 ## 📊 Dataset
-In this work and our previous study ([BC-JRD](https://ieeexplore.ieee.org/document/10349945)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset, as illustrated below. It consist of original and distorted images of detected objects from the COCO test set. DT-JRD is a non-reference model, and therefore only the original data is required. In contrast, BC-JRD is a full-reference model, which necessitates both the original and distorted data for training and validation.
+In this work and our previous study ([BC-JRD](https://ieeexplore.ieee.org/document/10349945)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset, as illustrated below. It consist of original and distorted images of detected objects from the COCO test set.
 <p align="center">
   <img src="BC-JRD.png" alt="Framework Overview" width="700"/>
 </p>
@@ -85,3 +85,13 @@ If you find our work useful or relevant to your research, please kindly cite our
   year={2024}
 }
 
+@ARTICLE{zhang2023learning,
+  author={Zhang, Yun and Lin, Haoqin and Sun, Jing and Zhu, Linwei and Kwong, Sam},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Learning to Predict Object-Wise Just Recognizable Distortion for Image and Video Compression}, 
+  year={2024},
+  volume={26},
+  number={},
+  pages={5925-5938},
+  keywords={Image coding;Machine vision;Distortion;Visualization;Predictive models;Image recognition;Task analysis;Deep learning;just recognizable distortion;object detection;video coding for machine},
+  doi={10.1109/TMM.2023.3340882}}
