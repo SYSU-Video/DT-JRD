@@ -62,10 +62,7 @@ DT-JRD
 - [ViT-B/32](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_patch32_224_in21k-8db57226.pth)
 
 ## 📊 Dataset
-In this work and our previous study ([BC-JRD](https://ieeexplore.ieee.org/document/10349945)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset, as illustrated below. It consist of original and distorted images of detected objects from the COCO test set.
-<p align="center">
-  <img src="BC-JRD.png" alt="Framework Overview" width="700"/>
-</p>
+In this work and our previous study ([BC-JRD](https://ieeexplore.ieee.org/document/10349945)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset. It consist of original and distorted images of detected objects from the COCO test set. DT-JRD is a non-reference model, and therefore only the original data is required. In contrast, BC-JRD is a full-reference model, which necessitates both the original and distorted data for training and validation.
 
 ## Train
 <pre> python train.py --size 384 --epochs 20 --batchsize 32 --lr 0.01 --gpus 0,1 --device cuda:0 </pre>
