@@ -62,7 +62,7 @@ DT-JRD
 - [ViT-B/32](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_patch32_224_in21k-8db57226.pth)
 
 ## 📊 Dataset
-In this work and our previous study ([BC-JRD](https://ieeexplore.ieee.org/document/10349945)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset. It consist of original and distorted images of detected objects from the COCO test set. DT-JRD is a non-reference model, and therefore only the original data is required. In contrast, BC-JRD is a full-reference model, which necessitates both the original and distorted data for training and validation.
+In this work and our previous study ([[paper]](https://ieeexplore.ieee.org/document/10349945) [[code]](https://github.com/SYSU-Video/Learning-to-Predict-Object-Wise-Just-Recognizable-Distortion-for-Image-and-Video-Compression)), we use the [OW-JRD (Object-wise Just Recognizable Distortion)](https://ieee-dataport.org/documents/object-wise-just-recognizable-distortion-dataset) dataset. It consist of original and distorted images of detected objects from the COCO test set. DT-JRD is a non-reference model, and therefore only the original data is required. In contrast, BC-JRD is a full-reference model, which necessitates both the original and distorted data for training and validation.
 
 ## Train
 <pre> python train.py --size 384 --epochs 20 --batchsize 32 --lr 0.01 --gpus 0,1 --device cuda:0 </pre>
@@ -81,12 +81,6 @@ If you find our work useful or relevant to your research, please kindly cite our
   journal={arXiv preprint arXiv:2411.09308},
   year={2024}
 }
-
-@ARTICLE{zhang2023learning,
-  author={Zhang, Yun and Lin, Haoqin and Sun, Jing and Zhu, Linwei and Kwong, Sam},
-  journal={IEEE Transactions on Multimedia}, 
-  title={Learning to Predict Object-Wise Just Recognizable Distortion for Image and Video Compression}, 
-  year={2024},
   volume={26},
   number={},
   pages={5925-5938},
