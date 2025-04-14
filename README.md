@@ -81,8 +81,3 @@ If you find our work useful or relevant to your research, please kindly cite our
   journal={arXiv preprint arXiv:2411.09308},
   year={2024}
 }
-  volume={26},
-  number={},
-  pages={5925-5938},
-  keywords={Image coding;Machine vision;Distortion;Visualization;Predictive models;Image recognition;Task analysis;Deep learning;just recognizable distortion;object detection;video coding for machine},
-  doi={10.1109/TMM.2023.3340882}}
