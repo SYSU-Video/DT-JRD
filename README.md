@@ -20,7 +20,7 @@ Finally, we propose a DT-JRD-based VCM to reduce the coding bits while maintaini
 Extensive experimental results demonstrate that the mean absolute error of the predicted JRD by the DT-JRD is 5.574, outperforming the state-of-the-art JRD prediction model by 13.1\%.
 Coding experiments show that compared with the VVC, the DT-JRD-based VCM achieves an average of 29.58\% bit rate reduction while maintaining the object detection accuracy.
 <p align="center">
-  <img src="DT-JRD.png" alt="Framework Overview" width="700"/>
+  <img src="DT-JRD.png" alt="Framework Overview" width="800"/>
 </p>
 
 ## Requirements
@@ -82,3 +82,4 @@ If you find our work useful or relevant to your research, please kindly cite our
   journal={arXiv preprint arXiv:2411.09308},
   year={2024}
 }
+
